@@ -1,4 +1,4 @@
-# Minimal Academic Website
+# Academic Website
 
 This is a small static website that can be hosted for free on GitHub Pages.
 
