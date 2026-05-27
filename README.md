@@ -7,8 +7,7 @@ This is a small static website that can be hosted for free on GitHub Pages.
 - `index.html` contains the page content.
 - `movies.html` contains the quiet personal movies subpage.
 - `styles.css` contains the visual design.
-- The current draft links to the May 2024 CV hosted on WordPress. For applications,
-  add the current CV as `cv.pdf` and update both CV links in `index.html`.
+- `cv.pdf` is the current CV linked from the site.
 
 ## GitHub Pages Setup
 

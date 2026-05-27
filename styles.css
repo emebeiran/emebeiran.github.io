@@ -80,7 +80,7 @@ main {
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-columns: minmax(0, 1fr) 210px;
   gap: 56px;
   align-items: center;
   padding: 24px 0 72px;
@@ -116,7 +116,7 @@ h2 {
 
 .lead {
   max-width: 720px;
-  margin: 28px 0 0;
+  margin: 0;
   color: var(--muted);
   font-size: 21px;
   line-height: 1.55;
@@ -237,6 +237,15 @@ footer a {
   border-top: 1px solid var(--line);
 }
 
+.movie-year h2 a {
+  color: var(--text);
+  text-decoration-color: color-mix(in srgb, var(--text), transparent 70%);
+}
+
+.movie-year h2 a:hover {
+  color: var(--accent-dark);
+}
+
 .movie-list {
   display: grid;
   gap: 14px;
@@ -250,6 +259,10 @@ footer a {
 .note {
   color: var(--muted);
   font-size: 15px;
+}
+
+.special-mention {
+  color: var(--muted);
 }
 
 @media (max-width: 780px) {
@@ -279,7 +292,7 @@ footer a {
   }
 
   .portrait {
-    max-width: 260px;
+    max-width: 190px;
   }
 
   .section {
