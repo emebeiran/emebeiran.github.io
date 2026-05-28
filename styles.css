@@ -122,6 +122,10 @@ h2 {
   line-height: 1.55;
 }
 
+.intro .lead + .lead {
+  margin-top: 16px;
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;
