@@ -239,6 +239,10 @@ footer a {
   font-size: 19px;
 }
 
+.lead.compact + .lead.compact {
+  margin-top: 14px;
+}
+
 .movie-year {
   display: grid;
   grid-template-columns: 120px minmax(0, 1fr);
